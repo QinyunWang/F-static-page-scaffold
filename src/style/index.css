@@ -63,7 +63,45 @@ ul {
 }
 
 .content {
+  width: 65%;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+.cards {
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-between;
+}
+
+.card {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  width: 49%;
+  border-radius: 5px;
+}
+
+img {
+  padding: 20px 0;
+  width: 200px;
+  height: 240px;
+}
+
+.description {
+  color: #999ca5;
+  font-size: 14px;
+  padding: 0 25px;
+  margin-bottom: 60px;
+}
+
+.start {
+  border: none;
+  padding: 3px 10px;
+  margin: 20px 0;
 }
